@@ -1,45 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Small chops </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
-<body>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="./project.css">
+    <title>Small Chops</title>
+  </head>
+  <body>
+    <!---navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-">
+        <div class="container">
           <a class="navbar-brand" href="https://smallchops.ng/">
-            <img src="./images/logo.svg" aria-current="page" class="inner-pages-logo w-inline-block nuxt-link-exact-active nuxt-link-active w--current"></a>
-            <div class="inner-pages-nav">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://smallchops.ng/packages"><h6>Our packages</h6></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://smallchops.ng/build-your-pack"><h6>Build your own pack</h6></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://smallchops.ng/event"><h6>Event</h6></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://smallchops.ng/corporate"><h6>Corporate</h6></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://smallchops.ng/contact"><h6>Contact</h6></a>
-                    </li>
-                    <li class="nav-item">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                     </li> <button class="btn btn-outline-success" type="submit">Search</button>
-         <div class="menu-button-flex"><div class="button-and-cart-flex"><a class="inner-pages-button inner-nav w-button">
-            Sign in
-          </a>
-         <a href="/checkout" class="nav-cart w-inline-block" title="Cart"><div class="cart-number-indicator"><div>0</div></div></a>
-        </ul>
+            <img src="./images/logo.svg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="menu-button"><div class="menu-line"></div> <div class="mid-menu-line"></div> <div class="menu-line"></div></div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+             
+              <li class="nav-item">
+                <a class="nav-link"  href="https://smallchops.ng/packages">Our packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="https://smallchops.ng/build-your-pack">Build your own pack</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="https://smallchops.ng/event">Event</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="https://smallchops.ng/corporate">Corporate</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="https://smallchops.ng/contact">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex"></form>
+                       <!----<button class="btn btn-outline-success" type="submit">Sign In </button>-->
+                        <a  class="inner-pages-button home-nav-button w-button">
+                            Sign in
+                          </a>
+                   <img src="./images/cart-icon-brown.svg" width="50" height="44">
+                <a href="https://smallchops.ng/checkout" class="nav-cart w-inline-block" title="Cart"><div class="cart-number-indicator"><div>0</div></div></a>
+                </from>
+                
+          </div>
         </div>
-      </nav>
-</body>
+    </nav>
+    <!---hero-->
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro">
+                  <h1>Order small chops for <br>today, tomorrow or<br> whenever!</h1> 
+                   <!--<h2 class="normal-font-weight brown-text">
+                    Order small chops for today, tomorrow or whenever!
+                  </h2>-->
+                  <a href="https://smallchops.ng/packages" class="button w-button">
+                    Order Now
+                  </a>
+                  <!-- <a href="https://smallchops.ng/packages" class="btn btn-main">Order Now</a>-->
+                </div>
+            </div>
+        </div>
+
+    </section>
+   
+<section class="special container">
+    <div class="row">
+        <div class="col-md-6 specialText">
+            <h2>Or would you like something particularly special?</h2>
+        </div>
+        <div class="col-md-6  specialImage">
+            Image
+        </div>
+    </div>
+</section>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
 </html>

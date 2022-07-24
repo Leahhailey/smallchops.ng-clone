@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400500;700;800;900&display=swap');
+
+body {
+    font-family: "Roboto";
+    line-height: 1.7;
+}
+body, html {
+    scroll-behavior: smooth!important;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-weight:800;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 800;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 11px;
+    font-family: Lexenddeca,sans-serif;
+    font-size: 3.2vw;
+    line-height: 4vw;
+}
+ .button {
+    min-height: 45px;
+    padding: 15px 40px;
+    -webkit-box-flex: 0; 
+    flex: 0 0 auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a5854f;
+    border-radius: 7px;
+    background-color: #a98265;
+    transition: all 400ms ease-in-out;
+    font-family: Lexenddeca,sans-serif;
+    color: #fff;
+    font-weight: 300;
+}
+.w-button {
+    display: inline-block;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.inner-pages-button.home-nav-button {
+    position: static;
+    left: auto;
+    top: 1vw;
+    right: 4vw;
+    bottom: auto;
+    -webkit-box-flex: 0;
+       flex: 0 0 auto;
+    background-color: #a5854f;
+}
+
+.inner-pages-button {
+    min-width: 130px;
+    padding: 12px 30px;
+    border-radius: 70px;
+       transition: all 400ms ease-in-out;
+    font-family: Lexenddeca,sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+        color: #fff;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    }
+ 
+    .nav-cart {
+        position: relative;
+                margin-left: 20px;
+        -webkit-box-flex: 0;
+                flex: 0 0 auto;
+        background-image: url(../images/cart-icon-brown.svg);
+        background-position: 50% 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .w-inline-block {
+               display: inline-block;
+    }
+   
+   
+
+
+
+.intro{
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.intro h1{
+    text-align: center;
+}
+
+.specialText h2{
+    text-align: left;
+    
+
+}
